@@ -1,0 +1,3 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:logwood/logwood.github.io.git
