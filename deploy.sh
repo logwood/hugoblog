@@ -9,6 +9,13 @@ printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 #hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 hugo -t cayman-hugo-theme
 
+git add .
+cmsg="rebuilding site $(date)"
+git commit -m "$cmsg"
+
+# Push source and build repos.
+git push origin master
+
 # Go To Public folder
 cd public
 
