@@ -1,5 +1,5 @@
 ---
-title: "golang快速入门前言"
+title: "golang快速入门(1) 前言"
 date: 2020-06-02T22:54:32+08:00
 draft: false
 tags: [golang]
