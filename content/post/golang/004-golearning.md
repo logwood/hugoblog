@@ -1,5 +1,5 @@
 ---
-title: "004 golang快速入门(4) Array & Slice"
+title: "golang快速入门(4) Array & Slice"
 date: 2020-06-09T23:14:36+08:00
 draft: true
 tags: [golang]
