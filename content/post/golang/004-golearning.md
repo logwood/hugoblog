@@ -1,7 +1,7 @@
 ---
 title: "golang快速入门(4) Array & Slice"
 date: 2020-06-09T23:14:36+08:00
-draft: true
+draft: false
 tags: [golang]
 ---
 
@@ -63,4 +63,38 @@ for i, v := range b {
 
 
 #### 二、Slice的使用
+
+在go语言中，你看到的切片的应用，一定是比数组多的，应用更为灵活和广泛。是go语言中关键的数据类型，提供了比数组更强大的接口。
+
+##### 1.1 切片定义
+
+定义一个切片[]string，即定义了一个类型为string的切片。切片本身比较灵活/
+
+```
+// 创建切片
+numbers := []int{0, 1, 2, 3, 4, 5, 6, 7, 8}
+// 打印原始切片
+fmt.Println("numbers ==", numbers) // numbers == [0 1 2 3 4 5 6 7 8]
+
+// 打印子切片从索引1(包含) 到索引4(不包含)
+fmt.Println("numbers[1:4] ==", numbers[1:4]) // numbers[1:4] == [1 2
+
+// 默认下限为 0
+fmt.Println("numbers[:3] ==", numbers[:3]) // numbers[:3] == [0 1 2]
+
+// 默认上限为 len(s)
+fmt.Println("numbers[4:] ==", numbers[4:]) // numbers[4:] == [4 5 6 7 8]
+```
+
+##### 1.2 创建切片的几种方式
+
+| 序号 | 方式               | 代码示例                                             |
+| ---- | ------------------ | ---------------------------------------------------- |
+| 1    | 直接声明           | `var slice []int`                                    |
+| 2    | New                | `slice := *new([]int)`                               |
+| 3    | 字面量             | `slice := []int{1,2,3,4,5}` 常用                     |
+| 4    | make               | `slice := make([]int, 5, 10)` 常用                   |
+| 5    | 从切片或数组“截取” | `slice := array[1:5]` 或 `slice := sourceSlice[1:5]` |
+
+
 
