@@ -13,7 +13,7 @@ tags: [principles]
 - Open / Closed Principle - 开闭原则
 - Liskov Substitution Principle - 里氏替换原则
 - Interface Segregation Principle - 接口隔离原则
-- Dependency Inversion Principle - 依赖倒置原址
+- Dependency Inversion Principle - 依赖倒置原则
 
 
 ### 一、单一职责原则
@@ -59,3 +59,13 @@ tags: [principles]
 下面以 汽车和4S店为例介绍开闭原则的应用。
 分析：4s店销售各种型号品牌的汽车，汽车的价格、型号不一样。这些汽车有共同的属性，抽象出一个汽车分类。4s店进一个新型号的汽车，实现这个抽象类就可以，不影响其他型号。如下图所示
 ![avatar](open-close.png)
+
+### 三、里氏替换原则
+
+### 四、接口隔离原则
+
+### 五、依赖倒置原则
+
+
+### ChangeLog
+- 2020年7月22日 完成单一职责和开闭原则
