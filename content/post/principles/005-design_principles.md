@@ -1,7 +1,7 @@
 ---
 title: "005 Design_principles"
 date: 2020-07-22T22:18:33+08:00
-draft: true
+draft: false
 tags: [principles]
 ---
 
@@ -69,3 +69,7 @@ tags: [principles]
 
 ### ChangeLog
 - 2020年7月22日 完成单一职责和开闭原则
+
+
+### 参考资料
+http://c.biancheng.net/view/1324.html
