@@ -1,7 +1,8 @@
 ---
 title: "007 Single Responsibility Principle"
 date: 2020-07-31T22:51:03+08:00
-draft: true
+draft: false
+tags: [principles]
 ---
 
 ## 单一职责原则
