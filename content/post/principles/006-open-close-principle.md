@@ -1,5 +1,5 @@
 ---
-依赖倒置原则是这样的title: "006 Open Close Principle"
+title: "006 Open Close Principle"
 date: 2020-07-28T22:17:45+08:00
 draft: false
 tags: [principles]
