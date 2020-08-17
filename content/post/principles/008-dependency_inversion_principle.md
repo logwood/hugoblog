@@ -1,7 +1,8 @@
 ---
 title: "008 Dependency Inversion Principle"
 date: 2020-08-13T22:29:14+08:00
-draft: true
+draft: false
+tags: [principles]
 ---
 
 ###  依赖倒置原则
